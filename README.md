@@ -1,16 +1,40 @@
-# React + Vite
+# 🧩 Anagram Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React web application that checks whether two words are anagrams.  
+Built using **React**, **Material UI**, and **TailwindCSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ✔️ Input two words  
+- ✔️ Check if they are anagrams  
+- ✔️ Simple and fast algorithm  
+- ✔️ Clean UI (MUI + Tailwind)  
+- ✔️ Responsive layout  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **React (Vite)**
+- **Material UI**
+- **TailwindCSS**
+- **JavaScript**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the repository
+```sh
+git clone https://github.com/wildanfm19/anagram-check.git
+cd anagram-check
+```
+
+### 2️⃣ Install dependencies
+```sh
+npm install
+```
+### 3️⃣ Start development server
+```sh
+npm run dev
+```
