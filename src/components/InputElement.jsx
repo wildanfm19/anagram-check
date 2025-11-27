@@ -6,7 +6,7 @@ const InputElement = ({label , value , onChange}) => {
 
     <div className='w-full p-4'>
         <TextField 
-        id='outlined-basic' label= {label} value={value} fullWidth onChange={(e) => onChange(e.target.value)}/>
+        id='outlined-basic' label= {label} value={value} fullWidth onChange={(e) => onChange(e.target.value.toLowerCase())}/>
     </div>
     
   )
