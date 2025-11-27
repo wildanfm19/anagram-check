@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import Header from './components/header'
+
 import InputElement from './components/InputElement'
 import { Box, Button, Grid } from '@mui/material'
+import Header from './components/Header'
 
 function App() {
   const [firstWord, setFirstWord] = useState('')
