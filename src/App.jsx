@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex justify-center items-center bg-blue-600">
-      <Box className="w-full max-w-xl p-6  shadow-xl rounded-xl bg-emerald-50">
+      <Box className="w-full max-w-xl p-6  shadow-xl rounded-xl bg-white">
         <Header />
 
         <Grid container spacing={2}>

@@ -4,9 +4,9 @@ import React from 'react'
 const InputElement = ({label , value , onChange}) => {
   return (
 
-    <div className='p-4'>
+    <div className='w-full p-4'>
         <TextField 
-        id='outlined-basic' label= {label} value={value} onChange={(e) => onChange(e.target.value)}/>
+        id='outlined-basic' label= {label} value={value} fullWidth onChange={(e) => onChange(e.target.value)}/>
     </div>
     
   )
